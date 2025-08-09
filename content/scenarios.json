@@ -1,0 +1,182 @@
+[
+  {
+    "id": "microlearning-generator",
+    "title": "Spin up a branded microlearning with quiz by Friday",
+    "description": "Designer with limited coding needs to generate microlearning content, publish quickly, and collect xAPI.",
+    "targets": {
+      "ease": 5,
+      "flexibility": 3,
+      "collaboration": 4,
+      "privacy": 4,
+      "cost": 3,
+      "speed": 5,
+      "integrations": 4,
+      "code": 2,
+      "application": 1,
+      "a11y": 4
+    },
+    "weights": {
+      "ease": 3,
+      "speed": 3,
+      "integrations": 2,
+      "privacy": 2,
+      "collaboration": 2,
+      "flexibility": 1,
+      "cost": 1,
+      "code": 1,
+      "application": 3,
+      "a11y": 2
+    },
+    "tmax": 20
+  },
+  {
+    "id": "secure-hr-policy-bot",
+    "title": "HR Policy Q&A with PII-safe retrieval",
+    "description": "Stand up an internal HR assistant that answers employee questions from policy docs with strict privacy controls.",
+    "targets": {
+      "ease": 3,
+      "flexibility": 3,
+      "collaboration": 3,
+      "privacy": 5,
+      "cost": 3,
+      "speed": 3,
+      "integrations": 5,
+      "code": 3,
+      "application": 3,
+      "a11y": 4
+    },
+    "weights": {
+      "privacy": 3,
+      "integrations": 3,
+      "application": 2,
+      "collaboration": 2,
+      "ease": 2,
+      "a11y": 2,
+      "cost": 1,
+      "speed": 1,
+      "flexibility": 1,
+      "code": 1
+    },
+    "tmax": 25
+  },
+  {
+    "id": "custom-sales-coach",
+    "title": "Build a custom sales coaching web app",
+    "description": "Prototype an internal app that scores call transcripts and recommends micro-actions; needs extensible code and integrations.",
+    "targets": {
+      "ease": 2,
+      "flexibility": 5,
+      "collaboration": 4,
+      "privacy": 4,
+      "cost": 3,
+      "speed": 3,
+      "integrations": 4,
+      "code": 5,
+      "application": 4,
+      "a11y": 3
+    },
+    "weights": {
+      "flexibility": 3,
+      "code": 3,
+      "application": 3,
+      "integrations": 2,
+      "collaboration": 2,
+      "privacy": 2,
+      "speed": 1,
+      "ease": 1,
+      "cost": 1,
+      "a11y": 1
+    },
+    "tmax": 30
+  },
+  {
+    "id": "rapid-pulse-survey",
+    "title": "Run a 24-hour pulse survey with quick reporting",
+    "description": "Collect feedback from 1,000 employees, generate simple dashboards, and share results fast.",
+    "targets": {
+      "ease": 5,
+      "flexibility": 2,
+      "collaboration": 3,
+      "privacy": 3,
+      "cost": 4,
+      "speed": 5,
+      "integrations": 3,
+      "code": 1,
+      "application": 1,
+      "a11y": 4
+    },
+    "weights": {
+      "speed": 3,
+      "ease": 3,
+      "cost": 2,
+      "a11y": 2,
+      "integrations": 2,
+      "privacy": 1,
+      "collaboration": 1,
+      "flexibility": 1,
+      "code": 1,
+      "application": 2
+    },
+    "tmax": 20
+  },
+  {
+    "id": "accessibility-first-training",
+    "title": "Ship an accessibility-first training experience",
+    "description": "Deliver a course that meets strong accessibility expectations and is easy to maintain.",
+    "targets": {
+      "ease": 4,
+      "flexibility": 3,
+      "collaboration": 3,
+      "privacy": 4,
+      "cost": 3,
+      "speed": 3,
+      "integrations": 4,
+      "code": 2,
+      "application": 1,
+      "a11y": 5
+    },
+    "weights": {
+      "a11y": 3,
+      "privacy": 2,
+      "integrations": 2,
+      "ease": 2,
+      "cost": 1,
+      "speed": 1,
+      "flexibility": 1,
+      "collaboration": 1,
+      "code": 1,
+      "application": 1
+    },
+    "tmax": 25
+  },
+  {
+    "id": "lrs-bi-integration",
+    "title": "Connect LRS events to BI dashboards",
+    "description": "Ingest xAPI from multiple sources, transform, and publish to a BI dashboard with refresh schedules.",
+    "targets": {
+      "ease": 2,
+      "flexibility": 4,
+      "collaboration": 3,
+      "privacy": 4,
+      "cost": 2,
+      "speed": 3,
+      "integrations": 5,
+      "code": 4,
+      "application": 4,
+      "a11y": 3
+    },
+    "weights": {
+      "integrations": 3,
+      "application": 3,
+      "code": 2,
+      "privacy": 2,
+      "flexibility": 2,
+      "speed": 1,
+      "collaboration": 1,
+      "ease": 1,
+      "cost": 1,
+      "a11y": 1
+    },
+    "tmax": 30
+  }
+]

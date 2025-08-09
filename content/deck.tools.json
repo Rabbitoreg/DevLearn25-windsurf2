@@ -1,0 +1,182 @@
+[
+  {
+    "id": "softr",
+    "name": "Softr",
+    "category": "no-code",
+    "ratings": {
+      "ease": 5,
+      "flexibility": 3,
+      "collaboration": 4,
+      "privacy": 3,
+      "cost": 4,
+      "speed": 4,
+      "integrations": 4,
+      "code": 1,
+      "application": 1,
+      "a11y": 3
+    },
+    "notes": "Airtable-first site/app builder; great for non-coders and fast MVPs."
+  },
+  {
+    "id": "glide",
+    "name": "Glide",
+    "category": "no-code",
+    "ratings": {
+      "ease": 5,
+      "flexibility": 3,
+      "collaboration": 3,
+      "privacy": 3,
+      "cost": 4,
+      "speed": 4,
+      "integrations": 3,
+      "code": 1,
+      "application": 1,
+      "a11y": 3
+    },
+    "notes": "Spreadsheet \u2192 mobile/web apps quickly; excellent for forms and lists."
+  },
+  {
+    "id": "bubble",
+    "name": "Bubble",
+    "category": "no-code",
+    "ratings": {
+      "ease": 3,
+      "flexibility": 5,
+      "collaboration": 3,
+      "privacy": 3,
+      "cost": 3,
+      "speed": 3,
+      "integrations": 4,
+      "code": 2,
+      "application": 1,
+      "a11y": 2
+    },
+    "notes": "Highly flexible no-code web apps; steeper learning curve."
+  },
+  {
+    "id": "retool",
+    "name": "Retool",
+    "category": "low-code",
+    "ratings": {
+      "ease": 3,
+      "flexibility": 4,
+      "collaboration": 4,
+      "privacy": 4,
+      "cost": 3,
+      "speed": 4,
+      "integrations": 5,
+      "code": 3,
+      "application": 3,
+      "a11y": 3
+    },
+    "notes": "Internal tools rapidly from data sources; JS when needed."
+  },
+  {
+    "id": "appsmith",
+    "name": "Appsmith",
+    "category": "low-code",
+    "ratings": {
+      "ease": 3,
+      "flexibility": 4,
+      "collaboration": 3,
+      "privacy": 4,
+      "cost": 4,
+      "speed": 4,
+      "integrations": 4,
+      "code": 3,
+      "application": 3,
+      "a11y": 3
+    },
+    "notes": "Open-source low-code for internal tools; self-host option."
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "category": "vibe-code",
+    "ratings": {
+      "ease": 4,
+      "flexibility": 4,
+      "collaboration": 3,
+      "privacy": 3,
+      "cost": 3,
+      "speed": 4,
+      "integrations": 3,
+      "code": 4,
+      "application": 4,
+      "a11y": 3
+    },
+    "notes": "Agent-assisted app builder that outputs editable codebases."
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "vibe-code",
+    "ratings": {
+      "ease": 3,
+      "flexibility": 4,
+      "collaboration": 3,
+      "privacy": 3,
+      "cost": 3,
+      "speed": 4,
+      "integrations": 4,
+      "code": 5,
+      "application": 4,
+      "a11y": 3
+    },
+    "notes": "AI-first IDE; strong for code-centric workflows and refactors."
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "category": "vibe-code",
+    "ratings": {
+      "ease": 4,
+      "flexibility": 4,
+      "collaboration": 4,
+      "privacy": 3,
+      "cost": 3,
+      "speed": 4,
+      "integrations": 3,
+      "code": 4,
+      "application": 4,
+      "a11y": 3
+    },
+    "notes": "Cloud IDE with AI agent; multiplayer dev experience."
+  },
+  {
+    "id": "copilot",
+    "name": "GitHub Copilot",
+    "category": "code",
+    "ratings": {
+      "ease": 4,
+      "flexibility": 5,
+      "collaboration": 4,
+      "privacy": 4,
+      "cost": 3,
+      "speed": 5,
+      "integrations": 5,
+      "code": 5,
+      "application": 4,
+      "a11y": 3
+    },
+    "notes": "AI pair programmer inside mainstream IDEs; strong ecosystem."
+  },
+  {
+    "id": "vercel-v0",
+    "name": "Vercel v0",
+    "category": "vibe-code",
+    "ratings": {
+      "ease": 4,
+      "flexibility": 3,
+      "collaboration": 3,
+      "privacy": 3,
+      "cost": 3,
+      "speed": 4,
+      "integrations": 4,
+      "code": 4,
+      "application": 4,
+      "a11y": 3
+    },
+    "notes": "UI generator that outputs React/Next components; good handoff to devs."
+  }
+]
