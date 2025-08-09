@@ -13,9 +13,9 @@ export async function GET(request: NextRequest) {
         avgScore: 82.1,
         medianLatency: 2800,
         topPlayers: [
-          { codename: 'TestPlayer', avgScore: 85.5, count: 5 },
-          { codename: 'Player2', avgScore: 78.2, count: 4 },
-          { codename: 'Player3', avgScore: 92.1, count: 6 }
+          { codename: 'TestPlayer', avgScore: 85.5, picks: 5 },
+          { codename: 'Player2', avgScore: 78.2, picks: 4 },
+          { codename: 'Player3', avgScore: 92.1, picks: 6 }
         ]
       })
     }
@@ -89,7 +89,7 @@ export async function GET(request: NextRequest) {
       .map(([codename, stats]) => ({
         codename,
         avgScore: stats.scores.reduce((sum, score) => sum + score, 0) / stats.scores.length,
-        picks: stats.count
+        picks: stats.scores.length
       }))
       .sort((a, b) => b.avgScore - a.avgScore)
       .slice(0, 5)
