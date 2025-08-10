@@ -4,14 +4,20 @@ import { JoinRequestSchema } from '@/lib/types'
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json()
-    const { codename } = JoinRequestSchema.parse(body)
+    const { codename } = await request.json()
 
-    // Development mode fallback when Supabase is not configured
+    // Debug: Log environment variables (temporary)
+    console.log('DEBUG - Environment check:', {
+      hasUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
+      hasKey: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+      urlLength: process.env.NEXT_PUBLIC_SUPABASE_URL?.length || 0,
+      keyLength: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.length || 0,
+      isSupabaseConfigured
+    })
+
+    // Development mode fallback
     if (!isSupabaseConfigured) {
-      console.log('Development mode: Supabase not configured, using mock data')
-      // Generate a valid UUID format for development
-      const mockPlayerId = `00000000-0000-4000-8000-${Date.now().toString().padStart(12, '0')}`
+      const mockPlayerId = '7b5c9a4b-2c27-4cb5-925e-c767a9e93c8b'
       return NextResponse.json({ playerId: mockPlayerId })
     }
 
