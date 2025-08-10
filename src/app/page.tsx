@@ -11,24 +11,14 @@ export default function HomePage() {
           A gameful, live, multi-player simulation where attendees act as an AI agent and pick the right tool for the job.
         </p>
         
-        <div className="space-y-4">
-          <div className="card p-6">
-            <h2 className="text-2xl font-semibold mb-4">For Players</h2>
+        <div className="grid grid-cols-1 gap-6 max-w-md mx-auto">
+          <div className="card p-6 text-center">
+            <h2 className="text-2xl font-semibold mb-4">Ready to Play?</h2>
             <p className="text-muted-foreground mb-4">
-              Join the game with a codename and start picking the best AI tools for different scenarios!
+              Join the game with your unique codename and start matching AI tools to scenarios.
             </p>
             <Link href="/join" className="btn-primary inline-block">
               Join Game
-            </Link>
-          </div>
-          
-          <div className="card p-6">
-            <h2 className="text-2xl font-semibold mb-4">For Facilitators</h2>
-            <p className="text-muted-foreground mb-4">
-              Monitor the game progress, view live leaderboards, and manage the session.
-            </p>
-            <Link href="/admin" className="btn-secondary inline-block">
-              Admin Dashboard
             </Link>
           </div>
         </div>
