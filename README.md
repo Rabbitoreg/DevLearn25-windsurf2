@@ -1,6 +1,8 @@
-# AI Tool Match - Conference Game
+# AI Tool Match
 
-A gameful, live, multi-player simulation where attendees act as an AI agent and pick the right tool for the job.
+This is a conference game built with Next.js for DevLearn 2025.
+
+**Status**: Connected to Supabase database for live conference use. A gameful, live, multi-player simulation where attendees act as an AI agent and pick the right tool for the job.
 
 ## 🎮 Game Overview
 
